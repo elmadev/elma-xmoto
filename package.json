@@ -1,0 +1,23 @@
+{
+  "name": "elma-xmoto",
+  "version": "1.0.0",
+  "description": "Convert xmoto levels to elasto mania levels",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elma",
+    "elasto",
+    "mania",
+    "xmoto"
+  ],
+  "author": "Ville Jänkälä",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "@turf/union": "^6.0.3",
+    "node-elma": "^1.0.3",
+    "xml2js": "^0.4.19"
+  }
+}
